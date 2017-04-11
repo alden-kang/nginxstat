@@ -31,7 +31,7 @@ optional arguments:
 
 ## Example
 ```
-[root@server ~]# python ./nginxstat.py --server rocket-talk-api01.s2.krane.9rum.cc --interval 1
+[root@server ~]# python ./nginxstat.py --server server.domain.com --interval 1
 connections	 accepts/s	 handled/s	requests/s	   reading	   writing	   waiting
        306	     42.00	     42.00	     46.00	         0	         6	       295
        313	     39.00	     39.00	     42.00	         0	         1	       307
